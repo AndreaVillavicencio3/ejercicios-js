@@ -36,7 +36,7 @@ const ejercicio2 = [
   },
 ];
 
-/* let condicion1 = edad >= 18;
+let condicion1 = edad >= 18;
 
 let condicion2 = esFamiliar === true;
 
@@ -44,7 +44,8 @@ if (condicion1 && condicion2){
    console.log(`entra a la fiesta`);
   } else{
     console.log(`no entra a la fiesta`);
-*/
+
+
 
 /* const admitirPaso = (nombre)=> {
    if (nombre.edad >=18) {
@@ -59,7 +60,7 @@ admitirPaso(ejercicio1); */
 
 
 
-const admitirPaso = (nombre)=> {
+/*const admitirPaso = (nombre)=> {
   if (nombre.edad >=18){
       console.log(`puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
   } else {
@@ -67,4 +68,6 @@ const admitirPaso = (nombre)=> {
   }
 };
 
-admitirPaso(ejercicio2);
+admitirPaso(ejercicio2); */
+
+
