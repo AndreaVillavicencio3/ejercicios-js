@@ -35,3 +35,12 @@ const ejercicio2 = [
     esFamiliar: true,
   },
 ];
+
+let condicion1 = edad >= 18;
+let condicion2 = esFamiliar =true
+
+if (condicion1 && condicion2){
+  console.log(`entra a la fiesta`);
+  } else{
+    console.log(`no entra a la fiesta`);
+  } 
