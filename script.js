@@ -50,7 +50,7 @@ if (condicion1 && condicion2){
 
 const admitirPaso = (persona)=> {
    if (persona.edad >=18) {
-    console.log(`puedes pasar ${persona.nombre} && ${persona.esFamiliar}`);
+    console.log(`puedes pasar ${persona.nombre} ${persona.esFamiliar}`);
 }
 };
 
