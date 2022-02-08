@@ -46,7 +46,7 @@ if (condicion1 && condicion2){
     console.log(`no entra a la fiesta`);
 */
 
-const admitirPaso = (nombre)=> {
+/* const admitirPaso = (nombre)=> {
    if (nombre.edad >=18) {
     console.log(`puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
 } else {
@@ -55,4 +55,16 @@ const admitirPaso = (nombre)=> {
 };
 
 
-admitirPaso(nombre);
+admitirPaso(ejercicio1); */
+const arregloPersonas = [ejercicio2];
+const admitirPaso = (nombre)=> {
+  if (nombre.edad >=18) {
+      console.log(`puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
+  } else {
+      console.log(`no puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
+  }
+};
+
+arregloPersonas.forEach((nombre) => {
+  admitirPaso(nombre);
+});
