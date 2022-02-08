@@ -48,16 +48,15 @@ if (condicion1 && condicion2){
   }; */
 
 
-const admitirPaso = (ejercicio2)=> {
-   if (ejercicio2.edad >=18) {
-    console.log(`puedes pasar ${ejercicio2.edad} ${ejercicio2.esFamiliar}`);
-} else {
-    console.log(`no puedes pasar ${ejercicio2.edad} ${ejercicio2.esFamiliar}`);
+const admitirPaso = (persona)=> {
+   if (persona.edad >=18) {
+    console.log(`puedes pasar ${persona.nombre} && ${persona.esFamiliar}`);
 }
 };
 
-
-admitirPaso(ejercicio2); 
+ejercicio2.forEach((persona) => {
+  admitirPaso(persona);
+}); 
 
 
 
