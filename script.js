@@ -50,9 +50,9 @@ const admitirPaso = (nombre)=> {
    if (nombre.edad >=18) {
     console.log(`puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
 } else {
-  console.log(`no puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
+    console.log(`no puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
 }
 };
 
 
-admitirPaso(ejercicio2);
+admitirPaso(nombre);
