@@ -48,16 +48,16 @@ if (condicion1 && condicion2){
   }; */
 
 
-const admitirPaso = (ejercicio1)=> {
-   if (ejercicio1.edad >=18) {
-    console.log(`puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
+const admitirPaso = (ejercicio2)=> {
+   if (ejercicio2.edad >=18) {
+    console.log(`puedes pasar ${ejercicio2.edad} ${ejercicio2.esFamiliar}`);
 } else {
-    console.log(`no puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
+    console.log(`no puedes pasar ${ejercicio2.edad} ${ejercicio2.esFamiliar}`);
 }
 };
 
 
-admitirPaso(ejercicio1); 
+admitirPaso(ejercicio2); 
 
 
 
