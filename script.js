@@ -55,3 +55,4 @@ const admitirPaso = (nombre)=> {
 };
 
 
+admitirPaso(ejercicio2);
