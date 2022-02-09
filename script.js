@@ -1,8 +1,9 @@
 const ejercicio1 = [
   3, 100, 85, 64, 46, 39, 40, 30, 20, 24, 25, 6, 10, 54, 82, 71, 67, 77, 17, 29,
   19, 88, 456, 13, 23, 24,];
+  let n = ejercicio1;
 const numeroprimo = () => {
-  if (ejercicio1%2 == 0) {
+  if (n%2 == 0) {
     console.log (` es par`)
   } else {
     console.log(`es impar`)
