@@ -3,6 +3,23 @@ const ejercicio1 = [
   19, 88, 456, 13, 23, 24,
 ];
 
+const numeroprimo = (impar) => {
+  if (impar.ejercicio1/2 > 0) {
+    console.log (`el ${impar.ejercicio1} es impar`)
+  }
+};
+
+ejercicio1.forEach((impar) => {
+  numeroprimo(impar);
+});
+
+
+
+
+
+
+
+
 const ejercicio2 = [
   {
     nombre: "Gabriel",
@@ -45,20 +62,11 @@ if (condicion1 && condicion2){
   } else{
     console.log(`no entra a la fiesta`);
 
-  }; */
+  }; corresponde al primer intento */ 
 
 
-const admitirPaso = (persona)=> {
-   if (persona.edad >=18 && persona.esFamiliar === true) {
-    console.log(`puedes pasar ${persona.nombre}`);
-}
-};
-
-ejercicio2.forEach((persona) => {
-  admitirPaso(persona);
-}); 
-
-
+/* Nota para Andrea: La forma correcta de hacerlo fue asignando "persona", agregar las condiciones juntas
+ y hacer un foreach en funcion de la persona y del arreglo llamado "ejercicio2"
 
 
 /*const admitirPaso = (nombre)=> {
@@ -67,6 +75,6 @@ ejercicio2.forEach((persona) => {
   } else {
       console.log(`no puedes pasar ${nombre.edad} ${nombre.esFamiliar}`);
   }
-};
+}; segundo intento
 
 admitirPaso(ejercicio2) */
