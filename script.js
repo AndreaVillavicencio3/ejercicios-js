@@ -2,16 +2,16 @@ const ejercicio1 = [
   3, 100, 85, 64, 46, 39, 40, 30, 20, 24, 25, 6, 10, 54, 82, 71, 67, 77, 17, 29,
   19, 88, 456, 13, 23, 24,];
   let n = ejercicio1;
-const numeroprimo = () => {
-  if (n%2 == 0) {
-    console.log (` es par`)
+const numeroprimo = (impar) => {
+  if (impar.n%2 == 0) {
+    console.log (` ${impar.n} es par`)
   } else {
-    console.log(`es impar`)
+    console.log(`${impar.n} es impar`)
   }
 };
 
-ejercicio1.forEach(() => {
-  numeroprimo();
+ejercicio1.forEach((impar) => {
+  numeroprimo(impar);
 });
 
 
