@@ -1,11 +1,11 @@
 const ejercicio1 = [
   3, 100, 85, 64, 46, 39, 40, 30, 20, 24, 25, 6, 10, 54, 82, 71, 67, 77, 17, 29,
-  19, 88, 456, 13, 23, 24,
-];
-
+  19, 88, 456, 13, 23, 24,];
 const numeroprimo = (impar) => {
   if (impar.ejercicio1/2 > 0) {
     console.log (`el ${impar.ejercicio1} es impar`)
+  } else {
+    console.log(`${impar.ejercicio1} no es impar`)
   }
 };
 
